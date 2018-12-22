@@ -3,15 +3,40 @@
   display: flex;
   justify-items: center;
 
-  map {
+  .map {
     width: 800px;
     height: 650px;
   }
 
-  &__form {
+  .bg__form {
     width: 800px;
     height: 650px;
     background: #4d4346 url(../img/bg-form.png) 50% 50% no-repeat;
     background-size: cover;
+
+  }
+
+    .form__text{
+      font-size: 14px;
+      color : #fff;
+      margin-right: 50px;
+    }
+
+  .contact__form {
+    width: 450px;
+    height: 450px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    &__name {
+      width: 295px;
+      height: 40px;
+      background: none;
+      border: 1px solid #fff;
+    }
+
+
   }
 }
+
