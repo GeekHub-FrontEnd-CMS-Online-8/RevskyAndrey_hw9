@@ -1,0 +1,17 @@
+.contact {
+  margin: 100px 0;
+  display: flex;
+  justify-items: center;
+
+  map {
+    width: 800px;
+    height: 650px;
+  }
+
+  &__form {
+    width: 800px;
+    height: 650px;
+    background: #4d4346 url(../img/bg-form.png) 50% 50% no-repeat;
+    background-size: cover;
+  }
+}

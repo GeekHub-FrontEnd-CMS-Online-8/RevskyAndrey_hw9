@@ -1,0 +1,91 @@
+.pricing {
+  width: 1170px;
+  margin: 0 auto;
+
+  &__list {
+    display: flex;
+
+  }
+
+  &__item {
+    width: 385px;
+    text-align: center;
+    &__header {
+      text-align: center;
+      height: 200px;
+      border-bottom: 1px solid #eeeeee;
+      border-left: 1px solid #eeeeee;
+      border-right: 1px solid #eeeeee;
+
+      &-center {
+        border-top: 5px solid #485563;
+      }
+
+      &-not {
+        margin-top: 45px;
+        height: 160px;
+        border-top: 1px solid #eeeeee;
+      }
+
+      &__title {
+        margin-top: 30px;
+        color: #485563;
+        font-size: 20px;
+        font-weight: bold;
+        font: $font-Montserrat;
+      }
+
+      &__price {
+        margin-top: 24px;
+        color: #485563;
+        font-size: 45px;
+        font-weight: bold;
+        font: $font-Montserrat;
+      }
+
+      &__text {
+        margin-top: 10px;
+        color: #485563;
+        font-size: 14px;
+
+        $font-Open-Sans: "Open Sans", sans-serif;
+      }
+    }
+
+    &__block {
+      height: 385px;
+      border: 1px solid #eeeeee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      &__text{
+        width: 250px;
+        height: 150px;
+        font-size: 14px;
+        font: $font-Open-Sans;
+        line-height: 25px;
+        color: #29323c;
+      }
+      &__buttons{
+        font:$font-Montserrat;
+        font-size: 13px;
+        width: 125px;
+        height: 40px;
+        border-radius:25px ;
+        background: #485563;
+        color: #fff;
+        line-height: 40px;
+        border: 3px solid transparent;
+        &:hover{
+          transition: 1s ease-out;
+          border: 3px solid #485563;
+          opacity: 0.7;
+        }
+
+      }
+
+    }
+  }
+}
+

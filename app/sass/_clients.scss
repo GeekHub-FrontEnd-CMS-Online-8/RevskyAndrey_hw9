@@ -1,0 +1,83 @@
+.clients {
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quotes {
+  font-size: 50px;
+  color: #959ba2;
+}
+
+.slider {
+  text-align: center;
+  height: 300px;
+
+
+  &__list {
+    position: relative;
+    width: 100%;
+
+  }
+
+
+  &__item {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    transition: opacity 1s;
+  opacity: 0;
+  }
+
+  &__item.showed {
+  opacity: 1  }
+
+  &__text {
+    font-size: 16px;
+    color: #2b3746;
+  }
+
+  &__photo {
+    padding-top: 50px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  &__name {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  &__job {
+    font-size: 13px;
+    color: #545b63;
+  }
+}
+
+
+.buttons {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.arrow-left {
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+
+.arrow-right {
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 5px;
+}
+
