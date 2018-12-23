@@ -16,27 +16,91 @@
 
   }
 
-    .form__text{
-      font-size: 14px;
-      color : #fff;
-      margin-right: 50px;
-    }
+
 
   .contact__form {
-    width: 450px;
     height: 450px;
+    width: 450px;
     margin: 100px auto;
+    color: #fff;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    &__name {
-      width: 295px;
+    position: relative;
+
+    &__row {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .text {
+      width: 75px;
+      padding-right: 60px;
+    }
+
+    .input {
+      width: 300px;
       height: 40px;
       background: none;
       border: 1px solid #fff;
+      border-radius: 5px;
+      &:hover {
+        transition: 0.5s;
+        background: #fff;
+        opacity: 0.5;
+      }
     }
 
+    &__rowarea {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+
+      .textarea {
+        position: relative;
+
+      }
+
+      .message {
+        position: relative;
+        left: -45px;
+        width: 296px;
+        height: 145px;
+        background: none;
+        border: 1px solid #fff;
+        border-radius: 5px;
+
+        &:hover {
+          transition: 0.5s;
+          background: #fff;
+          opacity: 0.5;
+        }
+      }
+
+
+      }
+    &__button {
+      color: #fff;
+      position: absolute;
+      left: 63%;
+      top: 100%;
+
+      width: 120px;
+      height: 45px;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      background: none;
+      text-align: center;
+      line-height: 45px;
+
+      &:hover {
+        transition: 1s;
+        cursor: pointer;
+        background: #fff;
+        color: #000;
+      }
+    }
+    }
 
   }
-}
-

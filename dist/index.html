@@ -517,22 +517,29 @@
 
   <div class="bg__form">
     <form class="contact__form" name="contuct_us">
-      <label class="form__text" for="name"> Name</label>
-      <input id="name" class="contact__form__name" type="text">
+      <div class="contact__form_row">
+      <label class="text" for="name"> Name</label>
+      <input id="name" class="input" type="text">
+      </div>
+      <div class="contact__form_row">
+        <label class="text" for="email"> Email</label>
+      <input id="email" class="input" type="text">
+      </div>
 
-      <label for="email"> Email</label>
-      <input id="email" class="contact__form__email" type="text">
+      <div class="contact__form_row">
+        <label class="text" for="phone">Phone</label>
+      <input id="phone" class="input" type="text" >
+      </div>
 
-      <label for="phone">Phone</label>
-      <input id="phone" class="contact__form__phone" type="text" >
 
-      <label for="textarea"> Message</label>
-      <textarea name="Message" class="contact__form__textarea" id="textarea"></textarea>
+      <div class="contact__form__rowarea">
+        <label class="textarea" for="textarea"> Message</label>
+      <textarea name="Message" class="message" id="textarea"></textarea>
+      </div>
 
-      <a href="#" class="contact__block--contact-form_link">
-        Submit</a>
+      <a href="javascript:void(0)" class="contact__form__button">Submit</a>
     </form>
-    >
+
   </div>
 
 </section>
